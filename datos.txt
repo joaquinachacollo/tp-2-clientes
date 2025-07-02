@@ -1,0 +1,9 @@
+Nombre y apellido: Alexander Joaquin Achacollo Helguero
+Carrera: Diseño y Programacion Web
+Materia: Clientes Web Mobile
+Cuatrimestre: 4 cuatrimestre
+Año: 2025
+Turno: Mañana
+Comisión: DWM4AP
+Docente: Santiago Gallino
+Carácter de entrega: Primer parcial

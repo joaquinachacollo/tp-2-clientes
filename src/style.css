@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* html, body, #app {
+  height: 100%;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: 56px 1fr 100px;
+} */
+
+/* @layer components {
+  .h1 {
+    ...
+  }
+} */
