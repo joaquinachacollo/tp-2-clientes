@@ -72,6 +72,18 @@ export default {
     <!-- Si ya se cargó el post, se muestra su contenido -->
     <div v-if="post">
       <p class="mb-6">{{ post.body }}</p>
+
+      <!-- NUEVO: Mostrar imagen si existe en la publicación detallada -->
+      <div v-if="post.image_url" class="mb-4">
+        <img
+          :src="post.image_url"
+          :alt="post.body || 'Imagen de publicación'"
+          class="max-w-md h-auto object-contain rounded-lg shadow-md block mx-auto"
+          @error="console.error('Error al cargar imagen del post en detalle:', $event.target.src)"
+        />
+      </div>
+      <!-- FIN NUEVO -->
+
     </div>
 
     <!-- Si todavía se está cargando, muestra texto alternativo -->
@@ -104,7 +116,7 @@ export default {
         <p class="text-gray-800">{{ comment.body }}</p>
 
         <!-- Si el comentario es del usuario logueado, muestra el botón de eliminar -->
-        <div v-if="comment.user_id === user.id" class="mt-2">
+        <div v-if="comment.user_id === user?.id" class="mt-2">
           <button
             @click="handleDeleteComment(comment.id)"
             class="text-red-600 text-sm hover:underline"

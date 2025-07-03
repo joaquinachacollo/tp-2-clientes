@@ -194,7 +194,7 @@ export default {
     <form @submit.prevent="handleSubmit" class="space-y-6 mt-4">
       <!-- Campo para la imagen de perfil (Avatar) -->
       <div>
-        <MainLabel for="profile-avatar">Imagen de perfil (Avatar):</MainLabel>
+        <MainLabel for="profile-avatar">Imagen de perfil :</MainLabel>
         <div class="flex items-center space-x-4 mt-2">
           <!-- Previsualización del avatar -->
           <img

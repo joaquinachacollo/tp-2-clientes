@@ -306,10 +306,10 @@ export default {
         class="w-full p-2 border border-gray-300 rounded bg-white"
       >
         <option disabled value="">Seleccioná una categoría...</option>
-        <option value="Tarea">📚 Tarea</option>
-        <option value="Ayuda">🤝 Ayuda</option>
-        <option value="Anuncio">📣 Anuncio</option>
-        <option value="Proyecto">🎨 Proyecto</option>
+        <option value="Tarea">Tarea</option>
+        <option value="Ayuda">Ayuda</option>
+        <option value="Anuncio">Anuncio</option>
+        <option value="Proyecto">Proyecto</option>
       </select>
 
       <!-- Campo de texto para el contenido de la publicación -->
@@ -402,7 +402,7 @@ export default {
           <img
             :src="post.image_url"
             :alt="post.body || 'Imagen de publicación'"
-            class="w-full h-auto object-contain rounded-lg shadow-md"
+            class="max-w-md h-auto object-contain rounded-lg shadow-md " 
             @error="console.error('Error al cargar imagen del post:', $event.target.src)"
           />
         </div>

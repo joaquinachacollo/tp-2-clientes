@@ -28,16 +28,16 @@ export default {
       <p class="text-gray-600 mb-2">En AulaLink podés:</p>
       <ul class="space-y-2 text-gray-800">
         <li class="flex items-center gap-2">
-          <span class="text-blue-500">📝</span> Ver las publicaciones de toda la comunidad educativa
+          Ver las publicaciones de toda la comunidad educativa
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-green-500">💬</span> Comentar y responder
+          Comentar y responder
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-purple-500">🛠️</span> Editar tu perfil y mostrar tu curso
+          Editar tu perfil y mostrar tu curso
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-pink-500">🌐</span> Participar en el chat global
+          Participar en el chat global
         </li>
       </ul>
     </div>
